@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="8dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:text="@string/default_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_title_item"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        <TextView
+                android:text="@string/default_body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_body_item"
+                app:layout_constraintTop_toBottomOf="@id/tv_title_item"
+                app:layout_constraintStart_toStartOf="@+id/tv_title_item"
+                app:layout_constraintEnd_toEndOf="@+id/tv_title_item"
+                android:layout_marginTop="4dp"
+                android:textSize="18sp"
+                android:textAlignment="gravity"
+                android:gravity="fill|fill_horizontal" />
+
+        <TextView
+                android:text="@string/default_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_username_item"
+                app:layout_constraintTop_toBottomOf="@+id/tv_body_item"
+                app:layout_constraintStart_toStartOf="@+id/tv_body_item"
+                android:layout_marginTop="4dp"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                app:drawableStartCompat="@drawable/ic_baseline_person_24"
+                android:gravity="center|center_horizontal|center_vertical" />
+
+        <TextView
+                android:text="@string/default_company"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:id="@+id/tv_company_item"
+                app:layout_constraintStart_toEndOf="@+id/tv_username_item"
+                app:layout_constraintTop_toTopOf="@+id/tv_username_item"
+                app:layout_constraintBottom_toBottomOf="@+id/tv_username_item"
+                android:layout_marginStart="8dp"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                app:drawableStartCompat="@drawable/ic_baseline_business_24" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

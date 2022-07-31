@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kumparan Tech Test</string>
+    <string name="default_title">Title</string>
+    <string name="default_body">Body</string>
+    <string name="default_username">Username</string>
+    <string name="default_company">Company</string>
+    <string name="default_comment">Comment</string>
+    <string name="default_name">Name</string>
+    <string name="default_email">Email</string>
+    <string name="default_address">Address</string>
+    <string name="default_street">Street</string>
+    <string name="default_suite">Suite</string>
+    <string name="default_city">City</string>
+    <string name="default_zipcode">ZipCode</string>
+    <string name="default_geo">Geo</string>
+    <string name="default_album">Album</string>
+    <string name="default_thumbnail">Thumbnail</string>
+    <string name="default_photos">Photos</string>
+</resources>
