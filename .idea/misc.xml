@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/activity_detail_album.xml" value="0.296195652173913" />
         <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/activity_detail_post.xml" value="0.296195652173913" />
         <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/activity_main.xml" value="0.296195652173913" />
         <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/activity_user_detail.xml" value="0.296195652173913" />
+        <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/item_albums.xml" value="0.296195652173913" />
+        <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/item_comments.xml" value="0.296195652173913" />
+        <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/item_photos.xml" value="0.296195652173913" />
+        <entry key="..\:/Kampus/Other Docs/Kumparan/Registration/Kumparan-Tech_Test/app/src/main/res/layout/item_post.xml" value="0.296195652173913" />
       </map>
     </option>
   </component>
